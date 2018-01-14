@@ -14,6 +14,16 @@
 	</properties>
 
 	<dependencies>
+	
+
+	
+	
+	<!-- linking backend project with frontend -->
+		<dependency>
+			<groupId>net.imran</groupId>
+			<artifactId>backendproject</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- junit -->
 		<dependency>

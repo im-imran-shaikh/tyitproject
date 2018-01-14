@@ -12,9 +12,25 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<springmvc>5.0.2.RELEASE</springmvc>
 	</properties>
 
 	<dependencies>
+		<!-- spring web mvc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${springmvc}</version>
+		</dependency>
+		
+		<!-- spring  -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${springmvc}</version>
+		</dependency>
+
+		<!-- junit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
