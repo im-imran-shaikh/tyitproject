@@ -16,7 +16,12 @@
 					</li>
 					<li id="contact" class="nav-item"><a class="nav-link" href="${contextRoot}/contact">Contact</a>
 					</li>
+					<li id = "login" ><a class="nav-link" href="${contextRoot}/login">Login</a></li>
+					<li id = "sign up" ><a class="nav-link" href="${contextRoot}/signup">Sign Up</a></li>
 				</ul>
 			</div>
+			
 		</div>
+
+
 	</nav>

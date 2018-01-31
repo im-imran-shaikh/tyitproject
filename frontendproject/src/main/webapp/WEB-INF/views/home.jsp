@@ -4,14 +4,19 @@
 
 		<div class="col-lg-3">
 
-		<%@include file = "./shared/sidebar.jsp" %>
+			<%@include file="./shared/sidebar.jsp"%>
 
 		</div>
-		<!-- /.col-lg-3 -->
+
 
 		<div class="col-lg-9">
 
-			<div id="carouselExampleIndicators" class="carousel slide my-4"
+
+			<div class="row">
+
+				
+
+<div id="carouselExampleIndicators" class="carousel slide my-4"
 				data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0"
@@ -20,17 +25,17 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
-					<div class="carousel-item active">
-						<img class="d-block img-fluid" src="http://placehold.it/900x350"
-							alt="First slide">
+					<div class="carsoulel-item active">
+						<img class="slide-image" src="${images}/rsz_oneplus-5t-star-wars.jpg"
+							alt="">
 					</div>
-					<div class="carousel-item">
-						<img class="d-block img-fluid" src="http://placehold.it/900x350"
-							alt="Second slide">
+					<div class="carsoulel-item">
+						<img class="slide-image" src="${images}/rsz_samsung_galaxy_note8.jpg"
+							alt="">
 					</div>
-					<div class="carousel-item">
-						<img class="d-block img-fluid" src="http://placehold.it/900x350"
-							alt="Third slide">
+					<div class="carsoulel-item">
+						<img class="slide-image" src="http://placehold.it/900x350"
+							alt="">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -43,18 +48,15 @@
 					class="sr-only">Next</span>
 				</a>
 			</div>
-
-			<div class="row">
-
 				<div class="col-lg-4 col-md-6 mb-4">
 					<div class="card h-100">
 						<a href="#"><img class="card-img-top"
 							src="http://placehold.it/700x400" alt=""></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">Item One</a>
+								<a href="${contextRoot}/product">OnePlus 5T</a>
 							</h4>
-							<h5>$24.99</h5>
+							<h5>rs 32999</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Amet numquam aspernatur!</p>
 						</div>
@@ -71,9 +73,9 @@
 							src="http://placehold.it/700x400" alt=""></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">Item Two</a>
+								<a href="${contextRoot}/product">samsung galaxy note 8</a>
 							</h4>
-							<h5>$24.99</h5>
+							<h5>68000</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit
 								amet.</p>
@@ -91,9 +93,9 @@
 							src="http://placehold.it/700x400" alt=""></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">Item Three</a>
+								<a href="${contextRoot}/product">iphone x</a>
 							</h4>
-							<h5>$24.99</h5>
+							<h5>rs 90000</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Amet numquam aspernatur!</p>
 						</div>
@@ -110,9 +112,9 @@
 							src="http://placehold.it/700x400" alt=""></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">Item Four</a>
+								<a href="${contextRoot}/product">google pixel xl2</a>
 							</h4>
-							<h5>$24.99</h5>
+							<h5> rs 40000</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Amet numquam aspernatur!</p>
 						</div>
@@ -129,9 +131,9 @@
 							src="http://placehold.it/700x400" alt=""></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">Item Five</a>
+								<a href="${contextRoot}/product">black berry keyOne</a>
 							</h4>
-							<h5>$24.99</h5>
+							<h5>rs 380000</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit
 								amet.</p>
@@ -149,9 +151,9 @@
 							src="http://placehold.it/700x400" alt=""></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">Item Six</a>
+								<a href="${contextRoot}/product">lg g6</a>
 							</h4>
-							<h5>$24.99</h5>
+							<h5>40000</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Amet numquam aspernatur!</p>
 						</div>
@@ -163,12 +165,12 @@
 				</div>
 
 			</div>
-			
+
 
 		</div>
-		
+
 
 	</div>
-	
+
 
 </div>

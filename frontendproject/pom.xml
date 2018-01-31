@@ -9,16 +9,16 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<javaee.version>8.0</javaee.version>
+		<javaee.version>7.0</javaee.version>
 		<springmvc>5.0.2.RELEASE</springmvc>
 	</properties>
 
 	<dependencies>
-	
 
-	
-	
-	<!-- linking backend project with frontend -->
+
+
+
+		<!-- linking backend project with frontend -->
 		<dependency>
 			<groupId>net.imran</groupId>
 			<artifactId>backendproject</artifactId>
@@ -33,22 +33,15 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--javax.servlet -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>4.0.0</version>
-			<scope>provided</scope>
-		</dependency>
+		
 
-		<!--java ee api -->
+	<!-- JAVA EE -->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 			<version>${javaee.version}</version>
 			<scope>provided</scope>
 		</dependency>
-
 
 		<!-- spring web mvc -->
 		<dependency>
@@ -59,14 +52,16 @@
 
 
 
-		<!--jstl -->
+
+
+
+		<!-- JSTL -->
+
 		<dependency>
-			<groupId>javax.servlet</groupId>
+			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-
-
 
 	</dependencies>
 

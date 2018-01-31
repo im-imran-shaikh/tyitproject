@@ -9,7 +9,7 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd
    ">
 
-	<context:component-scan base-package="net.imran.frontendproject"></context:component-scan>
+	<context:component-scan base-package="net.imran.frontendproject" />
 	<context:component-scan base-package="net.imran.backendproject.daoimpl" />
 
 	<bean id="ViewResolver"

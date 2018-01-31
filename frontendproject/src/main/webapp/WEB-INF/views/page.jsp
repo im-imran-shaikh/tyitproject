@@ -53,8 +53,9 @@
 
 			<!-- loading only when user click home -->
 			<c:if test="${userClickHome == true}">
-				<%@include file="home.jsp"%>
+			<%@include file="home.jsp"%>	
 			</c:if>
+			
 
 			<!-- loading only when user click about -->
 			<c:if test="${userClickAbout == true}">
@@ -65,12 +66,27 @@
 			<c:if test="${userClickContact == true}">
 				<%@include file="contact.jsp"%>
 			</c:if>
-
-		<!-- loading only when user click All Products or user click category Product -->
-			<c:if test="${userClickAllProducts == true}">
-				<%@include file="listproduct.jsp"%>
+		
+			<!-- loading only when user click All Products or user click category Product -->
+			<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true}"> 
+			<%@include file="listproduct.jsp"%> 
+			</c:if> 
+			
+			<!-- loading only when user click sign -->
+			<c:if test="${userClickSignup == true}">
+			<%@include file="signup.jsp"%>
 			</c:if>
-
+			
+			<!-- loading only when user click login -->
+			<c:if test="${userClickLogin == true}">
+			<%@include file="login.jsp"%>
+			</c:if>
+			
+			
+			<!-- loading only when user click product -->
+			<c:if test="${userClickProduct == true}">
+				<%@include file="product.jsp"%>
+			</c:if>
 		</div>
 
 		<!-- Footer -->
