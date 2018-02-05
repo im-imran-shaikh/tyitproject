@@ -23,7 +23,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Shop Homepage - ${title}</title>
+<title>MobiTab- ${title}</title>
 <script>
 	window.menu = '${title}';
 </script>

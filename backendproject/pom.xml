@@ -12,7 +12,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<springmvc>5.0.2.RELEASE</springmvc>
+		<springmvc>4.3.6.RELEASE</springmvc>
+
 	</properties>
 
 	<dependencies>
@@ -22,12 +23,49 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${springmvc}</version>
 		</dependency>
-		
-		<!-- spring  -->
+
+		<!-- spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${springmvc}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${springmvc}</version>
+		</dependency>
+
+		<!-- database connection pooling -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-dbcp2</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+
+
+
+		<!-- HIBERNATE CONFIGURATION -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.2.11.Final</version>
+		</dependency>
+
+		<!-- H2 DATABASE -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.196</version>
+		</dependency>
+
+
+		<!-- Database Connection Pooling -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-dbcp2</artifactId>
+			<version>2.1.1</version>
 		</dependency>
 
 		<!-- junit -->

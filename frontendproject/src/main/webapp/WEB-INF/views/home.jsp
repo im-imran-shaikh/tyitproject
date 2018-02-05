@@ -34,7 +34,7 @@
 							alt="">
 					</div>
 					<div class="carsoulel-item">
-						<img class="slide-image" src="http://placehold.it/900x350"
+						<img class="slide-image" src="${images}/rsz_iphone_x.jpg"
 							alt="">
 					</div>
 				</div>

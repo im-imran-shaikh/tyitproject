@@ -10,7 +10,7 @@
    ">
 
 	<context:component-scan base-package="net.imran.frontendproject" />
-	<context:component-scan base-package="net.imran.backendproject.daoimpl" />
+	<context:component-scan base-package="net.imran.backendproject" />
 
 	<bean id="ViewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

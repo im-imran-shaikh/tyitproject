@@ -1,3 +1,5 @@
+
+<center>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
@@ -138,8 +140,7 @@
 		</div>
 
 
-		<!-- Footer comes here -->
-		<%@include file="./shared/footer.jsp"%>
+	
 
 		<!-- jQuery -->
 		<script src="${js}/jquery.js"></script>
@@ -157,3 +158,4 @@
 </body>
 
 </html>
+</center>

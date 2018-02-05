@@ -10,7 +10,7 @@
 
 	<properties>
 		<javaee.version>7.0</javaee.version>
-		<springmvc>5.0.2.RELEASE</springmvc>
+		<springmvc>4.3.6.RELEASE</springmvc>
 	</properties>
 
 	<dependencies>
